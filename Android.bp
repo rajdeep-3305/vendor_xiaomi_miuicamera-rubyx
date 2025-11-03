@@ -68,7 +68,7 @@ cc_prebuilt_library_shared {
                 "libui",
                 "libutils",
                 "libvndksupport",
-                "vendor.mediatek.hardware.camera.isphal@1.0",
+                "vendor.mediatek.hardware.camera.isphal@1.0_miuicamera",
                 "vendor.mediatek.hardware.camera.isphal-V1-ndk",
                 "libbinder_ndk",
                 "libmtkisp_metadata_sys",
@@ -173,7 +173,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.mediatek.hardware.camera.isphal@1.0",
+    name: "vendor.mediatek.hardware.camera.isphal@1.0_miuicamera",
+    stem: "vendor.mediatek.hardware.camera.isphal@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
